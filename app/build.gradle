@@ -1,9 +1,11 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
+//apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.742975145@qq.com'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.lkt.retrofittest"
+//        applicationId "com.lkt.retrofittest"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
